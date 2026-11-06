@@ -121,9 +121,13 @@ ssh -l netadmin 192.168.10.3
 
 <img width="704" height="718" alt="PC0_ssh" src="https://github.com/user-attachments/assets/18cf7ee8-f86a-41dc-b9a5-010275d0bff1" />
 
+
+
 - PC1 was denied SSH access by the standard ACL.
 
 <img width="699" height="717" alt="PC1_ssh" src="https://github.com/user-attachments/assets/2d251d32-24fd-43fe-a341-e1f9a7037af6" />
+
+
 
 - Regular PC-to-PC communication was unaffected.
 
