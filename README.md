@@ -141,4 +141,4 @@ ssh -l netadmin 192.168.10.3
 - `lab.pkt`: Packet Tracer topology
 - `configs/`: Router and switch configuration files
 - `topology.png`: Network topology
-- `troubleshooting.md`: Troubleshooting notes
+
