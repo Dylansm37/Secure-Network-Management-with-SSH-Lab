@@ -16,7 +16,6 @@ The lab also verifies that Telnet is disabled and console access remains availab
 - Generate 1024-bit RSA keys.
 - Enable SSH version 2.
 - Configure VTY lines to use local authentication.
-- Disable Telnet and permit SSH only.
 - Configure standard ACLs to restrict VTY access to the IT workstation.
 - Configure a five-minute idle timeout for remote sessions.
 
@@ -118,11 +117,20 @@ ssh -l netadmin 192.168.10.3
 
 ## Security Testing
 
-- PC-IT successfully established SSH sessions with all three Cisco devices.
-- PC-USER was denied SSH access by the standard ACL.
-- Telnet access was disabled on the VTY lines.
-- Console access remained available.
+- PC0 successfully established SSH sessions with all three Cisco devices.
+
+<img width="704" height="718" alt="PC0_ssh" src="https://github.com/user-attachments/assets/18cf7ee8-f86a-41dc-b9a5-010275d0bff1" />
+
+- PC1 was denied SSH access by the standard ACL.
+
+<img width="699" height="717" alt="PC1_ssh" src="https://github.com/user-attachments/assets/2d251d32-24fd-43fe-a341-e1f9a7037af6" />
+
 - Regular PC-to-PC communication was unaffected.
+
+<img width="688" height="713" alt="PC1_ping" src="https://github.com/user-attachments/assets/d45ab772-8984-4251-ab91-f6a361f805bd" />
+<img width="702" height="717" alt="PC0_ping" src="https://github.com/user-attachments/assets/354c5187-c304-47e4-905a-0600ae158add" />
+
+
 
 ## Files
 
